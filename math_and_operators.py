@@ -26,6 +26,6 @@
 
 sale = false
 
-state = if sale == true "We have a sale today!" else "We don't have a sale today."
+state = if sale == true: "We have a sale today!" else "We don't have a sale today."
 
 print(state)

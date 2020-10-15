@@ -1,7 +1,7 @@
 import random
 import time
 
-def guesspin(lookingfor):
+def guess_random_4_numbers(lookingfor):
     num = 0
     i = 0
     while i <= 1:
@@ -19,4 +19,4 @@ print("The random integer is " + str(randomint))
 
 time.sleep(5)
 
-guesspin(randomint)
+guess_random_4_numbers(randomint)
